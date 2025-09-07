@@ -1,0 +1,116 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #131313;
+            color: white;
+
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 150px;
+            background-color: #1f1f1f;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            margin: 20px 0;
+        }
+
+        .sidebar a:hover {
+            color: #3498db;
+        }
+
+        .sidebar .profile-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        /* Story highlights section */
+        .story-highlights {
+            display: flex;
+            overflow-x: auto;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            margin-right: 10px;
+            text-align: center;
+        }
+
+        .highlight img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid #3498db;
+        }
+
+        .highlight span {
+            display: block;
+            margin-top: 5px;
+            font-size: 12px;
+        }
+
+        /* Post section */
+        .post {
+            background-color: #1f1f1f;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .post img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .post-actions {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .post-actions a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .post-actions a:hover {
+            color: #3498db;
+        }
+
+
+.prmain{
+    display: flex;
+}
+
+
+#pr-dp{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
